@@ -1,0 +1,215 @@
+html {
+  height: 100%;
+  width: 100%;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+
+}
+
+
+.background {
+  background-image: url('welcomepage.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container h1 {
+  top: 200px;
+  left: 350px;
+  position: absolute;
+  font-size: 100px;
+  font-family: "Roboto", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translateX(-50%);
+}
+
+.container h2 {
+  top: 290px;
+  left: 420px;
+  position: absolute;
+  font-size: 100px;
+  font-family: "Roboto", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translateX(-50%);
+}
+
+.container h3 {
+  top: 500px;
+  left: 495px;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Times New Roman", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translateX(-50%);
+}
+
+.container h4 {
+  top: 533px;
+  left: 488px;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Times New Roman", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translateX(-50%);
+}
+
+.container h5 {
+  top: 565px;
+  left: 400px;
+  position: absolute;
+  font-size: 40px;
+  font-family: "Times New Roman", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transform: translateX(-50%);
+}
+
+.Started-button {
+  font-family: "Georgia", "Arial", sans-serif;
+  display: inline-block;
+  font-size: 30px;
+  padding: 1em 2em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+}
+
+.Started-button:focus {
+  outline: 0;
+}
+
+.Started-button:active {
+  transform: scale(0.9);
+}
+
+.Started-button {
+  position: absolute;
+  top: 700px;
+  left: 100px;
+}
+
+.Home-button {
+  font-family: "Georgia", "Arial", sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  padding: 1em 2em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+}
+
+.Home-button:focus {
+  outline: 0;
+}
+
+.Home-button:active {
+  transform: scale(0.9);
+
+}
+
+.Home-button {
+  position: absolute;
+  top: -50px;
+  left: 300px;
+}
+
+.About-button {
+  font-family: "Georgia", "Arial", sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  padding: 1em 2em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+}
+
+.About-button:focus {
+  outline: 0;
+}
+
+.About-button:active {
+  transform: scale(0.9);
+}
+
+.About-button {
+  position: absolute;
+  top: -50px;
+  left: 600px;
+}
+
+.login-button {
+  font-family: "Georgia", "Arial", sans-serif;
+  display: inline-block;
+  font-size: 20px;
+  padding: 1em 2em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+
+}
+
+.login-button:focus {
+  outline: 0;
+}
+
+.login-button:active {
+  transform: scale(0.9);
+}
+
+.login-button {
+  position: absolute;
+  top: -50px;
+  left: 900px;
+}
+
+.landing-page-bg-img {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh;
+}
+
+

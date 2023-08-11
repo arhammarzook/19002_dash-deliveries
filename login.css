@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.Border-frame {
+  border: 2px solid black;
+  /* You can customize the width, style, and color */
+  height: 915px;
+  width: 1900px;
+  background-color: #ffffff;
+  overflow: hidden
+}
+
+.navbar-frame {
+  height: 75px;
+  width: 1900px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #000000;
+  overflow: hidden
+}
+
+.Dash-deliveries {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 100px;
+
+
+}
+
+.Cart {
+  font-family: "Roboto", "Arial", sans-serif;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: 2px solid black;
+  cursor: pointer;
+  position: absolute;
+  left: 1558px;
+  top: 5px;
+
+}
+
+.Login {
+  font-family: "Roboto", "Arial", sans-serif;
+  border: 2px solid black;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  cursor: pointer;
+  position: absolute;
+  left: 1700px;
+  top: 5px;
+
+}
+
+
+.search-bar {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+
+
+
+.image-logo {
+  background-color: black;
+  width: 70px;
+  height: 60px;
+  position: absolute;
+  top: 6px;
+  left: 10px;
+
+
+}
+
+img {
+  width: 70px;
+  height: 60px;
+}
+
+.Border-frame h1 {
+  position: absolute;
+  top: 100px;
+  left: 850px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  color: #000000
+}
