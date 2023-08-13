@@ -83,8 +83,6 @@ html {
 .search-bar {
   text-align: center;
   margin-top: 20px;
-  position: absolute;
-  top: 5px;
 }
 
 input[type="text"] {
