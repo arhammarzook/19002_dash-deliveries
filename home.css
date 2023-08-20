@@ -1,17 +1,19 @@
+/* Global styles */
 html {
   height: 100%;
   width: 100%;
 }
 
+/* .Border-frame */
 .Border-frame {
   border: 2px solid black;
-  /* You can customize the width, style, and color */
   height: 915px;
   width: 1900px;
   background-color: #ffffff;
-  overflow: hidden
+  overflow: hidden;
 }
 
+/* .navbar-frame */
 .navbar-frame {
   height: 75px;
   width: 1900px;
@@ -19,67 +21,45 @@ html {
   top: 10px;
   left: 10px;
   background-color: #000000;
-  overflow: hidden
+  overflow: hidden;
+}
+
+/* Buttons */
+.Dash-deliveries,
+.Cart,
+.Login {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  font-size: 30px;
+  margin: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 45px;
+  border: 2px solid black;
+  cursor: pointer;
+  position: absolute;
 }
 
 .Dash-deliveries {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: inline-block;
   font-size: 40px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 45px;
-  border: none;
-  cursor: pointer;
-  position: absolute;
   left: 100px;
-
-
 }
 
 .Cart {
-  font-family: "Roboto", "Arial", sans-serif;
-  display: inline-block;
   font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 45px;
-  border: 2px solid black;
-  cursor: pointer;
-  position: absolute;
   left: 1558px;
   top: 5px;
-
 }
 
 .Login {
-  font-family: "Roboto", "Arial", sans-serif;
-  border: 2px solid black;
-  display: inline-block;
   font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 45px;
-  cursor: pointer;
-  position: absolute;
   left: 1700px;
   top: 5px;
-
 }
 
-
+/* .search-bar */
 .search-bar {
   text-align: center;
   margin-top: 20px;
@@ -92,8 +72,7 @@ input[type="text"] {
   border-radius: 5px;
 }
 
-
-
+/* .image-logo */
 .image-logo {
   background-color: black;
   width: 70px;
@@ -101,8 +80,6 @@ input[type="text"] {
   position: absolute;
   top: 6px;
   left: 10px;
-
-
 }
 
 img {
@@ -110,184 +87,90 @@ img {
   height: 60px;
 }
 
+/* .Border-frame h1 */
 .Border-frame h1 {
   position: absolute;
   top: 100px;
   left: 850px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
-  color: #000000
+  color: #000000;
 }
 
-
-.kebab {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 200px;
-  left: 66.67px;
-  border: 2px solid black;
-}
-
-
-.burger {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 200px;
-  left: 437.67px;
-  border: 2px solid black;
-}
-
-.chips {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 200px;
-  left: 808.67px;
-  border: 2px solid black;
-}
-
-.pizza {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 200px;
-  left: 1179.67px;
-  border: 2px solid black;
-}
-
-.sandwich {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 200px;
-  left: 1550.67px;
-  border: 2px solid black;
-}
-
-.taco {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 430px;
-  left: 66.67px;
-  border: 2px solid black;
-}
-
-.wings {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 430px;
-  left: 437.67px;
-  border: 2px solid black;
-}
-
-
-.sushi {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 430px;
-  left: 808.67px;
-  border: 2px solid black;
-}
-
-.hotdog {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 430px;
-  left: 1179.67px;
-  border: 2px solid black;
-}
-
-.salad {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 430px;
-  left: 1550.67px;
-  border: 2px solid black;
-}
-
-.desert {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 660px;
-  left: 66.67px;
-  border: 2px solid black;
-}
-
-.smoothie {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 660px;
-  left: 437.67px;
-  border: 2px solid black;
-}
-
-.pancake {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 660px;
-  left: 808.67px;
-  border: 2px solid black;
-}
-
-.sundae {
-  height: 200px;
-  width: 300px;
-  position: absolute;
-  top: 660px;
-  left: 1179.67px;
-  border: 2px solid black;
-}
-
+/* Image cards */
+.kebab,
+.burger,
+.chips,
+.pizza,
+.sandwich,
+.taco,
+.wings,
+.sushi,
+.hotdog,
+.salad,
+.desert,
+.smoothie,
+.pancake,
+.sundae,
 .waffle {
   height: 200px;
   width: 300px;
   position: absolute;
-  top: 660px;
-  left: 1550.67px;
   border: 2px solid black;
 }
 
+.kebab { top: 200px; left: 66.67px; }
+.burger { top: 200px; left: 437.67px; }
+.chips { top: 200px; left: 808.67px; }
+.pizza { top: 200px; left: 1179.67px; }
+.sandwich { top: 200px; left: 1550.67px; }
+.taco { top: 430px; left: 66.67px; }
+.wings { top: 430px; left: 437.67px; }
+.sushi { top: 430px; left: 808.67px; }
+.hotdog { top: 430px; left: 1179.67px; }
+.salad { top: 430px; left: 1550.67px; }
+.desert { top: 660px; left: 66.67px; }
+.smoothie { top: 660px; left: 437.67px; }
+.pancake { top: 660px; left: 808.67px; }
+.sundae { top: 660px; left: 1179.67px; }
+.waffle { top: 660px; left: 1550.67px; }
+
+/* .checkout-link */
 .checkout-link {
   position: absolute;
-  top: 50px;
-  left: 1500px;
-  color: #80ff00;
+  top: 28px;
+  left: 1550px;
+  color: #ffffff;
+  font-size: 30px;
 }
 
+/* #CartCount */
 #CartCount {
-    position: absolute;
-    background: white;
-    border-radius: 50%;
-    padding: 3px 6px;
-    color: #000000;
-    bottom: -10px;
-    right: -15px;
-    font-size: 12px;
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  color: #000000;
+  bottom: -10px;
+  right: -15px;
+  font-size: 12px;
 }
 
+/* .card */
 .card {
-    position: relative;
-    max-width: 100px;
-    height: 250px;
-    overflow: hidden;
-    margin: 10px auto;
-    padding: 10px;
+  position: relative;
+  max-width: 100px;
+  height: 250px;
+  overflow: hidden;
+  margin: 10px auto;
+  padding: 10px;
 }
 
 .card img {
   width: 500px;
 }
 
+/* .cart-button */
 .cart-button {
   position: absolute;
   top: 10px;
@@ -295,7 +178,6 @@ img {
   border: 1px solid #a42d2d;
   padding: 20px;
   cursor: pointer;
-  
 }
 
 .cart-button:hover {
@@ -303,6 +185,7 @@ img {
   color: white;
 }
 
+/* .card .item-price */
 .card .item-price {
   font-weight: bolder;
   color: red;

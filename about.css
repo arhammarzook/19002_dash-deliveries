@@ -7,7 +7,6 @@ html {
 /* .Border-frame */
 .Border-frame {
   border: 2px solid black;
-  /* You can customize the width, style, and color */
   height: 915px;
   width: 1900px;
   background-color: #ffffff;
@@ -25,27 +24,11 @@ html {
   overflow: hidden;
 }
 
-/* .Dash-deliveries button */
-.Dash-deliveries {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: inline-block;
-  font-size: 40px;
-  margin: 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 45px;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  left: 100px;
-}
-
-/* .Cart button */
+/* Buttons */
+.Dash-deliveries,
 .Cart,
 .Login {
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: inline-block;
   font-size: 30px;
   margin: 10px;
@@ -59,12 +42,19 @@ html {
   position: absolute;
 }
 
+.Dash-deliveries {
+  font-size: 40px;
+  left: 100px;
+}
+
 .Cart {
+  font-size: 30px;
   left: 1558px;
   top: 5px;
 }
 
 .Login {
+  font-size: 30px;
   left: 1700px;
   top: 5px;
 }
@@ -163,96 +153,39 @@ img {
   color: red;
 }
 
-/* .login-bg-img */
-.login-bg-img {
+
+.about-bg-img {
   width: 100%;
   object-fit: cover;
   height: 100vh;
 }
 
-/* .loginbox */
-.loginbox {
-  width: 420px;
-  height: 500px;
-  background: #000;
-  color: #fff;
-  top: 55%;
-  left: 500px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  box-sizing: border-box;
-  padding: 120px 30px;
-}
-
-/* .avatar */
-.avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  position: absolute;
-  top: -50px;
-  left: calc(50% - 50px);
-}
-
-/* p1 */
 p1 {
-  margin: 0;
-  padding: 0 0 20px;
+  font-size: 150px;
+  position:absolute;
+  top: 250px;
+  left: 380px;
   text-align: center;
-  font-size: 28px;
-  color: #fff;
-  position: absolute;
-  left: 145px;
-  top: 65px;
-}
-
-/* .loginbox p */
-.loginbox p {
   margin: 0;
-  padding: 0;
-  font-weight: bold;
+  padding:0;
 }
 
-/* .loginbox input */
-.loginbox input {
-  width: 100%;
-  margin-bottom: 20px;
+p2 {
+  font-size: 150px;
+  position:absolute;
+  top: 400px;
+  left: 525px;
+  text-align: center;
+  margin: 0;
+  padding:0;
 }
 
-.loginbox input[type="text"],
-.loginbox input[type="password"] {
-  border: none;
-  border-bottom: 1px solid #fff;
-  background: transparent;
-  outline: none;
-  height: 40px;
-  color: #fff;
-  font-size: 16px;
-}
-
-.loginbox input[type="button"] {
-  border: none;
-  outline: none;
-  height: 40px;
-  background: #ffffff;
-  color: #000;
-  font-size: 18px;
-  border-radius: 20px;
-}
-
-.loginbox input[type="button"]:hover {
-  cursor: pointer;
-  background: #ffc107;
-  color: #000;
-}
-
-.loginbox a {
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 20px;
-  color: #fff;
-}
-
-.loginbox a:hover {
-  color: #ffc107;
+p3 {
+  font-size: 25px;
+  position:absolute;
+  top: 350px;
+  left: 975px;
+  text-align: center;
+  margin: 0;
+  padding:0;
 }
