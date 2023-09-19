@@ -17,10 +17,10 @@
             <form>
                 <p1>Login Here</p1>
                 <p>Username</p>
-                <input id="Usertext" type="text" placeholder="Username" /> 
-              <p>Paswword</p>
-      <input id="PasswordText" type="password" placeholder="Password" />
-                <input type="button" name="" value="Login" onclick="check_login()">
+                <input id="Usertext" type="text" placeholder="Username" />
+                <p>Password</p>
+                <input id="PasswordText" type="password" placeholder="Password" />
+                <input type="button" value="Login" onclick="check_login()">
                 <a href="#">Lost your password?</a><br>
                 <a href="#">Don't have an account?</a>
             </form>
@@ -31,11 +31,13 @@
         <a href="index.html" id="landing-page">
             <button class="Dash-deliveries"><b>Dash Deliveries</b></button>
         </a>
-        <a href="login.html" id="login-button"> 
-            <button class="Login"><b>Login</b></button>  
+        <a href="login.html" id="login-button">
+            <button class="Login"><b>Login</b></button>
         </a>
-        <a class="checkout-link" href="checkout.html"><span id="CartCount">0</span><i
-                class="fa-solid fa-cart-shopping"></i></a>
+        <a class="checkout-link" href="checkout.html">
+            <span id="CartCount">0</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
         <form class="search-bar" action="/search" method="GET">
             <input type="text" name="query" placeholder="Search...">
         </form>
@@ -43,10 +45,10 @@
             <img src="logo.png" alt="Image">
         </div>
     </div>
-  
-  <script src="data.js"></script>
-  <script src="script.js"></script>
-  <script src="login.js"></script>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>
