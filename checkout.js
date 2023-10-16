@@ -30,18 +30,18 @@ async function show_checkout_page() {
 
   let element = `<div class="checkout-container">`;
   let cart_total_price = 0
-  
+
   unique_items.forEach(function(item_id) {
       let count = cart_items.reduce((n, x) => n + (x === item_id), 0);
 
-      
+
       // Dynamically add the items
       data.some(function(item) {
         if (item.id == item_id) {
           // Compute for total price per item
           let total_item_price = Number(item.item_price) * count;
           cart_total_price = cart_total_price + total_item_price;
-          
+
           element += `<div class='cart-item'>`
           element += `<img src='${item.item_image}'>`
           element += `<p class="item-name">${item.item_name}</p>`;
@@ -52,7 +52,7 @@ async function show_checkout_page() {
 
         }
       })
-      
+
     });
 
     element += `</div>`; // End of DIV.container
