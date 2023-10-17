@@ -32,32 +32,32 @@ async function show_checkout_page() {
   let cart_total_price = 0
 
   unique_items.forEach(function(item_id) {
-      let count = cart_items.reduce((n, x) => n + (x === item_id), 0);
+    let count = cart_items.reduce((n, x) => n + (x === item_id), 0);
 
 
-      // Dynamically add the items
-      data.some(function(item) {
-        if (item.id == item_id) {
-          // Compute for total price per item
-          let total_item_price = Number(item.item_price) * count;
-          cart_total_price = cart_total_price + total_item_price;
+    // Dynamically add the items
+    data.some(function(item) {
+      if (item.id == item_id) {
+        // Compute for total price per item
+        let total_item_price = Number(item.item_price) * count;
+        cart_total_price = cart_total_price + total_item_price;
 
-          element += `<div class='cart-item'>`
-          element += `<img src='${item.item_image}'>`
-          element += `<p class="item-name">${item.item_name}</p>`;
-          element += `<p class="cart-count">x ${count}</p>`;
-          element += `<p class="item-price">$ ${item.item_price}</p>`;
-          element += `<p class="item-total-price">Total: $ ${total_item_price}</p>`;
-          element += `</div>`;
+        element += `<div class='cart-item'>`
+        element += `<img src='${item.item_image}'>`
+        element += `<p class="item-name">${item.item_name}</p>`;
+        element += `<p class="cart-count">x ${count}</p>`;
+        element += `<p class="item-price">$ ${item.item_price}</p>`;
+        element += `<p class="item-total-price">Total: $ ${total_item_price}</p>`;
+        element += `</div>`;
 
-        }
-      })
+      }
+    })
 
-    });
+  });
 
-    element += `</div>`; // End of DIV.container
-    element += `<div class="total-cart-price">$ ${cart_total_price}</div>`
-    document.getElementById("checkout-page").innerHTML = element;
+  element += `</div>`; // End of DIV.container
+  element += `<div class="total-cart-price">$ ${cart_total_price}</div>`
+  document.getElementById("checkout-page").innerHTML = element;
 }
 
 function add_cart_cookie(item_id) {
@@ -83,4 +83,18 @@ function count_cookie_cart_items() {
     let count = document.cookie.split(',').length;
     cartCounter.innerHTML = count;
   }
+}
+
+$(document).ready(function() {
+
+  $(".menu-card").on("mouseenter", handlerIn).on("mouseleave", handlerOut);
+})
+
+function handlerIn(e) {
+  console.log(e)
+  $(this).children("p").show()
+}
+
+function handlerOut(e) {
+  $(this).children("p").hide()
 }

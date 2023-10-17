@@ -4,22 +4,26 @@ html {
   width: 100%;
 }
 
+body {
+  border: 2px solid black;
+}
+
 /* .Border-frame */
 .Border-frame {
-  border: 2px solid black;
+ /* border: 2px solid black;
   height: 915px;
   width: 1900px;
   background-color: #ffffff;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 /* .navbar-frame */
 .navbar-frame {
   height: 75px;
-  width: 1900px;
-  position: absolute;
+  /*width: 1900px; */
+  /*position: absolute;
   top: 10px;
-  left: 10px;
+  left: 10px;*/
   background-color: #000000;
   overflow: hidden;
 }
@@ -86,11 +90,10 @@ img {
   width: 70px;
   height: 60px;
 }
+
 .img-hover:hover {
   filter: blur(5px);
   cursor: pointer;
-  
-
 }
 
 /* Additional CSS for when images are not hovered */
@@ -101,12 +104,48 @@ img {
 
 /* .Border-frame h1 */
 .Border-frame h1 {
-  position: absolute;
+  /*position: absolute;
   top: 100px;
-  left: 850px;
+  left: 850px; **/
+  text-align: center;
+  margin-top: 50px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   color: #000000;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 100px;
+}
+
+.menu-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin: 50px 100px;
+}
+
+.food-name {
+  display: none;
+  position: absolute;
+  top: 0;
+  background: white;
+  padding: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.food-price {
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 10px;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Image cards */
@@ -127,12 +166,13 @@ img {
 .waffle {
   height: 200px;
   width: 300px;
-  position: absolute;
+  /* position: absolute;*/
   border: 2px solid black;
   cursor: pointer;
-  
+
 }
 
+/*
 .kebab { top: 200px; left: 66.67px; }
 .burger { top: 200px; left: 437.67px; }
 .chips { top: 200px; left: 808.67px; }
@@ -149,7 +189,7 @@ img {
 .sundae { top: 660px; left: 1179.67px; }
 .waffle { top: 660px; left: 1550.67px; }
 
-
+*/
 
 
 
