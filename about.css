@@ -16,12 +16,15 @@ html {
 /* .navbar-frame */
 .navbar-frame {
   height: 75px;
-  width: 1900px;
+  display: flex;
+  justify-content: space-between;
+  /*width: 1900px;
   position: absolute;
   top: 10px;
-  left: 10px;
+  left: 10px; 
+  overflow: hidden;*/
   background-color: #000000;
-  overflow: hidden;
+
 }
 
 /* Buttons */
@@ -39,28 +42,31 @@ html {
   border-radius: 45px;
   border: 2px solid black;
   cursor: pointer;
-  position: absolute;
+  /*position: absolute; */
 }
 
 .Dash-deliveries {
   font-size: 40px;
-  left: 100px;
+  font-weight: bold;
+  text-decoration: none;
+  /* left: 100px; */
 }
 
 .Cart {
   font-size: 30px;
-  left: 1558px;
-  top: 5px;
+  /* left: 1558px;
+  top: 5px; */
 }
 
 .Login {
   font-size: 30px;
-  left: 1700px;
-  top: 5px;
+  /* left: 1700px;
+  top: 5px; */
 }
 
 /* .search-bar */
 .search-bar {
+  display: inline-block;
   text-align: center;
   margin-top: 20px;
 }
@@ -75,11 +81,11 @@ input[type="text"] {
 /* .image-logo */
 .image-logo {
   background-color: black;
-  width: 70px;
+  /*width: 70px;
   height: 60px;
   position: absolute;
   top: 6px;
-  left: 10px;
+  left: 10px; */
 }
 
 img {
@@ -99,9 +105,9 @@ img {
 
 /* .checkout-link */
 .checkout-link {
-  position: absolute;
+  /*position: absolute;
   top: 28px;
-  left: 1550px;
+  left: 1550px; */
   color: #ffffff;
   font-size: 30px;
 }
@@ -160,36 +166,36 @@ img {
   height: 100vh;
 }
 
-p1 {
-  font-size: 150px;
-  position:absolute;
-  top: 250px;
-  left: 380px;
+
+#about-header {
+  position: absolute;
+  top: 276px;
+  left: 500px;
+  font-size: 80px;
+  max-width: 250px;
   text-align: center;
-  margin: 0;
-  padding:0;
 }
 
-p2 {
-  font-size: 150px;
-  position:absolute;
-  top: 400px;
-  left: 525px;
-  text-align: center;
-  margin: 0;
-  padding:0;
-}
-
-p3 {
+p {
   font-size: 20px;
-  position:absolute;
+  position: absolute;
   top: 285px;
   left: 970px;
   text-align: center;
-  padding:0;
+  padding: 0;
   margin: 2rem 0;
   line-height: 1.3;
   max-width: 55ch;
-  
+  overflow-y: auto;
+  max-height: 450px;
 }
 
+@media screen and (max-width: 1300px) {
+  .about-bg-img {
+    display: none
+  }
+
+  #about-header, p {
+    position: static;
+  }
+}

@@ -194,8 +194,8 @@ img {
   left: calc(50% - 50px);
 }
 
-/* p1 */
-p1 {
+
+#login-header {
   margin: 0;
   padding: 0 0 20px;
   text-align: center;
