@@ -15,18 +15,22 @@ async function check_login() {
   const emailText = document.getElementById("Usertext");
   const passwordText = document.getElementById("PasswordText");
 
-  data.forEach(function(account) {
-    if (emailText.value === account.email && passwordText.value === account.password) {
-      alert("Login successful");
-
-      // Set the session to logged in
-      console.log("Setting session to logged in");
-      sessionStorage.setItem('userStatus', 'loggedIn');
-
-      location.reload();
-      // Task: What should happen once the user has logged in? Do they go to a dashboard?
-    }
-  });
+  // Check if email/password are entered
+  if (emailText.value !== "" && passwordText.value !== "") {
+    data.forEach(function(account) {
+      if (emailText.value === account.email && passwordText.value === account.password) {
+        alert("Login successful");
+  
+        // Set the session to logged in
+        console.log("Setting session to logged in");
+        sessionStorage.setItem('userStatus', 'loggedIn');
+  
+        location.reload();
+        // Task: What should happen once the user has logged in? Do they go to a dashboard?
+      }
+      else alert("Incorrect Username/Password");
+    });
+  }
 }
 
 function remove(item_id) {
@@ -37,3 +41,4 @@ function remove(item_id) {
     }
   });
 }
+

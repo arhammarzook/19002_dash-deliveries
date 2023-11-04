@@ -10,5 +10,5 @@ const data_setup=[
     "password": "kingcmscoder",
     "last-name": "chaudhry",
     "first-name": "hazik"
-  }
+  },
 ]

@@ -28,49 +28,29 @@ body {
   overflow: hidden;
 }
 
-.container h1 {
+
+
+/*************************/
+/*       index.html      */
+/*************************/
+
+.heading {
+  position: absolute;
+  z-index: 2;
   top: 200px;
-  left: 350px;
-  position: absolute;
+}
+
+.title {
   font-size: 100px;
   font-family: "Roboto", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  transform: translateX(-50%);
+  font-weight: bold;
+  margin: 0;
 }
 
-.container h2 {
-  top: 290px;
-  left: 420px;
-  position: absolute;
-  font-size: 100px;
-  font-family: "Roboto", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  transform: translateX(-50%);
-}
-
-.container h3 {
-  top: 500px;
-  left: 495px;
-  position: absolute;
+.subtitle {
   font-size: 40px;
   font-family: "Times New Roman", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  transform: translateX(-50%);
-}
-
-.container h4 {
-  top: 533px;
-  left: 488px;
-  position: absolute;
-  font-size: 40px;
-  font-family: "Times New Roman", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  transform: translateX(-50%);
-}
-
-.container h5 {
-  top: 565px;
-  left: 400px;
-  position: absolute;
-  font-size: 40px;
-  font-family: "Times New Roman", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  transform: translateX(-50%);
+  margin: 0;
 }
 
 .Started-button {
@@ -217,4 +197,14 @@ body {
   width: 100%;
   object-fit: cover;
   height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
 }

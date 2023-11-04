@@ -38,8 +38,6 @@ html {
   border-radius: 45px;
   border: none;
   cursor: pointer;
-  position: absolute;
-  left: 100px;
 }
 
 /* .Cart button */
@@ -72,7 +70,7 @@ html {
 /* .search-bar */
 .search-bar {
   text-align: center;
-  margin-top: 20px;
+  display: inline-block;
 }
 
 input[type="text"] {
@@ -107,61 +105,6 @@ img {
   color: #000000;
 }
 
-/* .checkout-link */
-.checkout-link {
-  position: absolute;
-  top: 28px;
-  left: 1550px;
-  color: #ffffff;
-  font-size: 30px;
-}
-
-/* #CartCount */
-#CartCount {
-  position: absolute;
-  background: white;
-  border-radius: 50%;
-  padding: 3px 6px;
-  color: #000000;
-  bottom: -10px;
-  right: -15px;
-  font-size: 12px;
-}
-
-/* .card */
-.card {
-  position: relative;
-  max-width: 100px;
-  height: 250px;
-  overflow: hidden;
-  margin: 10px auto;
-  padding: 10px;
-}
-
-.card img {
-  width: 500px;
-}
-
-/* .cart-button */
-.cart-button {
-  position: absolute;
-  top: 10px;
-  left: 1500px;
-  border: 1px solid #a42d2d;
-  padding: 20px;
-  cursor: pointer;
-}
-
-.cart-button:hover {
-  background-color: red;
-  color: white;
-}
-
-/* .card .item-price */
-.card .item-price {
-  font-weight: bolder;
-  color: red;
-}
 
 /* .login-bg-img */
 .login-bg-img {

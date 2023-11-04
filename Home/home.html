@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="home.css" rel="stylesheet" type="text/css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="checkout.js"></script>
+</head>
+
+<body class="">
+  <div class="navbar-frame">
+    <a href="index.html" id="landing-page" class="Dash-deliveries">
+      Dash Deliveries
+    </a>
+    <form class="search-bar" action="/search" method="GET">
+      <input type="text" name="query" placeholder="Search...">
+    </form>
+    <a href="login.html" id="login-button" class="Login">
+      Login
+    </a>
+  </div>
+
+  <div class="container">
+    <header>
+      <h1>Your Shopping Cart</h1>
+      <div class="shopping">
+        <img src="imgs/shopping.svg">
+        <span class="quantity">0</span>
+      </div>
+    </header>
+    <div class="list"></div>
+  </div>
+
+  <div class="card">
+    <h1>Cart</h1>
+    <ul class="listCard"></ul>
+    <div class="checkOut">
+      <div class="total">0</div>
+      <div class="closeShopping">Close</div>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+
+</html>

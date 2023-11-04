@@ -18,11 +18,6 @@ html {
   height: 75px;
   display: flex;
   justify-content: space-between;
-  /*width: 1900px;
-  position: absolute;
-  top: 10px;
-  left: 10px; 
-  overflow: hidden;*/
   background-color: #000000;
 
 }
@@ -42,26 +37,21 @@ html {
   border-radius: 45px;
   border: 2px solid black;
   cursor: pointer;
-  /*position: absolute; */
+
 }
 
 .Dash-deliveries {
   font-size: 40px;
   font-weight: bold;
   text-decoration: none;
-  /* left: 100px; */
 }
 
 .Cart {
   font-size: 30px;
-  /* left: 1558px;
-  top: 5px; */
 }
 
 .Login {
   font-size: 30px;
-  /* left: 1700px;
-  top: 5px; */
 }
 
 /* .search-bar */
@@ -81,11 +71,6 @@ input[type="text"] {
 /* .image-logo */
 .image-logo {
   background-color: black;
-  /*width: 70px;
-  height: 60px;
-  position: absolute;
-  top: 6px;
-  left: 10px; */
 }
 
 img {
@@ -105,9 +90,6 @@ img {
 
 /* .checkout-link */
 .checkout-link {
-  /*position: absolute;
-  top: 28px;
-  left: 1550px; */
   color: #ffffff;
   font-size: 30px;
 }

@@ -6,7 +6,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link href="login.css" rel="stylesheet" type="text/css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,11 +14,11 @@
         <b class="loginbox">
             <img src="imgs/avatar3.png" class="avatar">
             <form>
-                <h1 id ="login-header"> Login Here</h1>
-                <p>Username</p> 
-                <input id="Usertext" type="text" placeholder="Username" />
-                <p>Password</p>
-                <input id="PasswordText" type="password" placeholder="Password" />
+                <h1 id="login-header"> Login Here</h1>
+                <p>Username (up to 20 characters)</p>
+                <input id="Usertext" type="text" placeholder="Username" maxlength="20" required />
+                <p>Password (up to 18 characters)</p>
+                <input id="PasswordText" type="password" placeholder="Password"  maxlength="18"  required />
                 <input type="button" value="Login" onclick="check_login()">
                 <a href="#">Lost your password?</a><br>
                 <a href="#">Don't have an account?</a>
@@ -28,22 +27,15 @@
     </div>
 
     <div class="navbar-frame">
-        <a href="index.html" id="landing-page">
-            <button class="Dash-deliveries"><b>Dash Deliveries</b></button>
-        </a>
-        <a href="login.html" id="login-button">
-            <button class="Login"><b>Login</b></button>
-        </a>
-        <a class="checkout-link" href="checkout.html">
-            <span id="CartCount">0</span>
-            <i class="fa-solid fa-cart-shopping"></i>
+        <a href="index.html" id="landing-page" class="Dash-deliveries">
+            Dash Deliveries
         </a>
         <form class="search-bar" action="/search" method="GET">
             <input type="text" name="query" placeholder="Search...">
         </form>
-        <div class="image-logo">
-            <img src="logo.png" alt="Image">
-        </div>
+        <a href="login.html" id="login-button" class="Login">
+            Login
+        </a>
     </div>
 
     <script src="data.js"></script>
