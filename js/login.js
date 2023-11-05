@@ -2,7 +2,6 @@
 
 // This is a different API used for user logins
 // const api_url = "https://retoolapi.dev/AnbI2N/data";
-
 // Defining async function
 async function check_login() {
   // Storing response
@@ -28,7 +27,8 @@ async function check_login() {
         location.reload();
         // Task: What should happen once the user has logged in? Do they go to a dashboard?
       }
-      else alert("Incorrect Username/Password");
+      else {alert("Incorrect Username/Password");
+      }
     });
   }
 }

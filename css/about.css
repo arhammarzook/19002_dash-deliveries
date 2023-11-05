@@ -151,11 +151,12 @@ img {
 
 #about-header {
   position: absolute;
-  top: 276px;
-  left: 500px;
+  top: 40%;
+  left: 25%;
   font-size: 80px;
   max-width: 250px;
   text-align: center;
+  
 }
 
 p {
