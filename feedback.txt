@@ -1,4 +1,0 @@
-August 10, 2023
-
-The website is looking great, Arham. Once you are satisfied with the design of your pages, please work on:
-[ ] Setting the API for your menu

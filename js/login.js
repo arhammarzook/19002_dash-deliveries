@@ -4,11 +4,11 @@
 async function check_login() {
   // login status
   userLoggedIn = false;
-  
+
   // min lengths
   minUsernameLength = 6;
   minPasswordLength = 6;
-  
+
   // Storing response
   const response = await fetch(api_url);
 
@@ -44,7 +44,7 @@ async function check_login() {
         location.reload();
       } 
   }
-  
+
 
 }
 
