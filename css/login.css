@@ -14,64 +14,6 @@ html {
   overflow: hidden;
 }
 
-/* .navbar-frame */
-.navbar-frame {
-  height: 75px;
-  width: 1900px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #000000;
-  overflow: hidden;
-}
-
-/* .Dash-deliveries button */
-.Dash-deliveries {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: inline-block;
-  font-size: 40px;
-  margin: 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 45px;
-  border: none;
-  cursor: pointer;
-}
-
-/* .Cart button */
-.Cart,
-.Login {
-  font-family: "Roboto", "Arial", sans-serif;
-  display: inline-block;
-  font-size: 30px;
-  margin: 10px;
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: #000000;
-  color: #ffffff;
-  border-radius: 45px;
-  border: 2px solid black;
-  cursor: pointer;
-  position: absolute;
-}
-
-.Cart {
-  left: 1558px;
-  top: 5px;
-}
-
-.Login {
-  left: 1700px;
-  top: 5px;
-}
-
-/* .search-bar */
-.search-bar {
-  text-align: center;
-  display: inline-block;
-}
 
 input[type="text"] {
   width: 500px;

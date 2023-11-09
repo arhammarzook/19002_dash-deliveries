@@ -1,47 +1,48 @@
 <!DOCTYPE html>
-  <html lang="en">
-<html>
+<html lang="en">
 
 <head>
-    <title>Login</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link href="css/login.css" rel="stylesheet" type="text/css">
+  <title>Login</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="css/home.css" rel="stylesheet" type="text/css">
+  <link href="css/login.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div class="Border-frame">
-        <img class="login-bg-img" src="imgs/loginbg.png" alt="imgs/login.png">
-        <b class="loginbox">
-            <img src="imgs/avatar3.png" class="avatar">
-            <form>
-                <h1 id="login-header"> Login Here</h1>
-                <p>Username (up to 20 characters)</p>
-                <input id="Usertext" type="text" placeholder="Username"  maxlength="20" required/>
-                <p>Password (up to 18 characters)</p>
-                <input  id="PasswordText" type="password" placeholder="Password" maxlength="18" required/>
-                <input type="button" value="Login" onclick="check_login()">
-                <a href="#">Lost your password?</a><br>
-                <a href="#">Don't have an account?</a>
-            </form>
-        </b>
-    </div>
+  <div class="navbar-frame">
+    <a href="index.html" id="landing-page" class="Dash-deliveries">
+      Dash Deliveries
+    </a>
+    <form class="search-bar" action="/search" method="GET">
+      <input type="text" name="query" placeholder="Search...">
+    </form>
+    <a href="login.html" id="login-button" class="Login">
+      Login
+    </a>
+  </div>
+  <div class="Border-frame">
+    <img class="login-bg-img" src="imgs/loginbg.png" alt="imgs/login.png">
+    <b class="loginbox">
+      <img src="imgs/avatar3.png" class="avatar">
+      <form>
+        <h1 id="login-header"> Login Here</h1>
+        <p>Username (up to 25 characters)</p>
+        <input id="Usertext" type="text" placeholder="Username" maxlength="25" required />
+        <p>Password (up to 18 characters)</p>
+        <input id="PasswordText" type="password" placeholder="Password" maxlength="18" required />
+        <input type="button" value="Login" onclick="check_login()">
+        <a href="#">Lost your password?</a><br>
+        <a href="#">Don't have an account?</a>
+      </form>
+    </b>
+  </div>
 
-    <div class="navbar-frame">
-        <a href="index.html" id="landing-page" class="Dash-deliveries">
-            Dash Deliveries
-        </a>
-        <form class="search-bar" action="/search" method="GET">
-            <input type="text" name="query" placeholder="Search...">
-        </form>
-        <a href="login.html" id="login-button" class="Login">
-            Login
-        </a>
-    </div>
+  
 
-    <script src="js/data.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/login.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/login.js"></script>
 </body>
 
 </html>
